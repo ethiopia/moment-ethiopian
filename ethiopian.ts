@@ -1,3 +1,5 @@
+// TODO: use date-fns
+
 import moment = require("moment");
 
 const enNames = {
