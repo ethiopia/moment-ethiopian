@@ -151,7 +151,7 @@ export class MomentEthiopia {
         let jdn = this.gcToJDN(day, month, year);
         return this.jdnToEc(jdn);
     }
-
+// convert ec to gc
     ecToGreg(day: number, month: number, year: number): number[] {
         let jdn = this.ecToJDN(day, month, year);
         return this.jdnToGc(jdn);
